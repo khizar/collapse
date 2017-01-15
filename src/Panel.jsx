@@ -51,7 +51,7 @@ const CollapsePanel = React.createClass({
           role="tab"
           aria-expanded={isActive}
         >
-          {showArrow && <div className="arrow"></div>}
+            {showArrow && <div className="outer-arrow"><div className="arrow"></div></div>}
           <div>{header}</div>
         </div>
         <Animate
